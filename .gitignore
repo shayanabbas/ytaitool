@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env/
+
+# Output and temp files
+output/
+temp/
+logs/
+*.log
+
+# Test data (if you want to ignore extra test data sets)
+testdata_1/
+
+# Editor and OS files
+.DS_Store
+.cursor/
+
+# Python egg and build files
+*.egg-info/
+build/
+dist/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/ 
+
+# config 
+config/config.yaml
