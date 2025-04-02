@@ -1,0 +1,1 @@
+# visual generator stub
