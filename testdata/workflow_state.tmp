@@ -1,0 +1,87 @@
+{
+    "user_input": {
+        "topic": "super scary witch interaction with kid name Airah.",
+        "video_type": "short",
+        "context": ""
+    },
+    "workflow_status": {
+        "script_generation": "completed",
+        "script_review": "completed",
+        "image_generation": "completed",
+        "animation": "completed",
+        "voiceover": "completed",
+        "music": "completed",
+        "sfx": "completed",
+        "video_creation": "completed",
+        "export": "in_progress"
+    },
+    "script": "Title: The Whispering Witch of Willow Creek\n\n[Scene 1: A dimly-lit bedroom, night. Toys scattered around, a small figure is seen huddling under the covers.]\n\nNARRATOR: In the heart of a silent night, young Airah felt an unnerving chill creep into her cozy room.\n\n[AIRAH shivers, pulling the blanket closer]\n\nAIRAH: (whispering) It's just the wind.\n\n[SFX: Soft, eerie whispering outside the window]\n\n[Scene 2: Close-up on the window, curtains fluttering. The moon casts a ghostly glow.]\n\nNARRATOR: But the whispering winds carried a voice, a voice that knew her name.\n\n[SFX: Wind howling, mixed with a faint, sinister laugh]\n\nWITCH: (whispering) Airaaah...\n\n[AIRAH's eyes widen in fear.]\n\n[Scene 3: AIRAH, driven by curiosity and fear, approaches the window. She peeks outside.]\n\nNARRATOR: Mustering all her courage, Airah dared to look upon the source of the whispers.\n\n[Outside, a shadowy figure stands by the Willow tree, eyes glowing softly.]\n\nWITCH: Come out, little one...\n\n[AIRAH gasps, stepping back.]\n\n[Scene 4: The room suddenly grows colder. Objects begin to subtly move.]\n\nNARRATOR: The witch's magic seeped through the cracks, chilling the air, stirring the shadows.\n\n[SFX: Objects clattering softly]\n\nAIRAH: (scared) You can't come in!\n\nWITCH: (taunting) But you can come out...\n\n[Scene 5: Focus on AIRAH, torn between staying safe and confronting the witch. She grabs a flashlight.]\n\nNARRATOR: Armed with nothing but a flashlight and her wits, Airah made a choice.\n\n[AIRAH slowly opens the window, the cold night air rushes in.]\n\n[Scene 6: AIRAH steps outside, flashlight piercing the darkness. The WITCH's shadow looms large before her.]\n\nNARRATOR: Face to face with the whispering witch of Willow Creek, Airah stood her ground.\n\n[SFX: Heartbeat, increasing in speed]\n\nWITCH: Ah, brave child... let's see if your courage holds in the world of shadows.\n\n[A flash of light, and then darkness.]\n\nNARRATOR: And with a blinding flash, Airah was gone... into the night, leaving behind only the echo of her bravery.\n\n[SFX: Sudden silence, then a soft, eerie whisper fades out]\n\n[End with a still shot of the empty yard, the Willow tree swaying gently.]\n\nNARRATOR: What became of young Airah, you ask? Well, that's a story for another night.\n\n[Screen fades to black]",
+    "seo_titles": [],
+    "seo_description": "",
+    "seo_hashtags": [],
+    "seo_tags": [],
+    "image_paths": [
+        "temp/images/visual_generator/scene_001.png",
+        "temp/images/visual_generator/scene_002.png",
+        "temp/images/visual_generator/scene_003.png",
+        "temp/images/visual_generator/scene_004.png",
+        "temp/images/visual_generator/scene_005.png",
+        "temp/images/visual_generator/scene_006.png"
+    ],
+    "scene_texts": [
+        "Generic scene",
+        "Generic scene",
+        "Generic scene",
+        "Generic scene",
+        "Generic scene",
+        "Generic scene"
+    ],
+    "animated_video_paths": [
+        "temp/animations/scene_001.mp4",
+        "temp/animations/scene_002.mp4",
+        "temp/animations/scene_003.mp4",
+        "temp/animations/scene_004.mp4",
+        "temp/animations/scene_005.mp4",
+        "temp/animations/scene_006.mp4"
+    ],
+    "voiceover_segments": [
+        {
+            "file": "./temp/voiceover/voiceover_part_001.mp3",
+            "text": "AIRAH: It's just the wind.",
+            "order": 1
+        },
+        {
+            "file": "./temp/voiceover/voiceover_part_002.mp3",
+            "text": "WITCH: Airaaah...",
+            "order": 2
+        },
+        {
+            "file": "./temp/voiceover/voiceover_part_003.mp3",
+            "text": "WITCH: Come out, little one...",
+            "order": 3
+        },
+        {
+            "file": "./temp/voiceover/voiceover_part_004.mp3",
+            "text": "AIRAH: You can't come in!",
+            "order": 4
+        },
+        {
+            "file": "./temp/voiceover/voiceover_part_005.mp3",
+            "text": "WITCH: But you can come out...",
+            "order": 5
+        },
+        {
+            "file": "./temp/voiceover/voiceover_part_006.mp3",
+            "text": "WITCH: Ah, brave child... let's see if your courage holds in the world of shadows.",
+            "order": 6
+        }
+    ],
+    "background_music_path": "temp/audio/background_music_1745690968.mp3",
+    "sfx_paths": [
+        "temp/audio/scary_sfx_1.mp3",
+        "temp/audio/scary_sfx_2.mp3",
+        "temp/audio/scary_sfx_3.mp3",
+        "temp/audio/scary_sfx_4.mp3",
+        "temp/audio/scary_sfx_5.mp3"
+    ],
+    "final_video_clip": 
