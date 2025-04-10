@@ -1,1 +1,2 @@
-# logger stub
+import logging
+def get_logger(): pass
