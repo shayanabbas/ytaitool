@@ -1,0 +1,78 @@
+# API Credentials
+api_keys:
+  openai:
+    api_key: "your-openai-api-key"
+  elevenlabs:
+    api_key: "your-elevenlabs-api-key"
+  leonardo:
+    api_key: "your-leonardo-api-key"
+  suno:
+    api_key: "your-suno-api-key"
+  youtube:
+    client_id: "your-youtube-client-id"
+    client_secret: "your-youtube-client-secret"
+    redirect_uri: "http://localhost:8080"
+
+# Content Generation Settings
+content:
+  script:
+    min_words_short: 150
+    max_words_short: 300
+    min_words_long: 800
+    max_words_long: 2000
+    temperature: 0.8
+  
+  voiceover:
+    voice_id: "default"  # ElevenLabs voice ID
+    chunk_size: 200  # words per chunk
+    stability: 0.7
+    similarity_boost: 0.7
+  
+  visual:
+    image_style: "3D animation, Pixar-style"
+    aspect_ratio_short: "9:16"
+    aspect_ratio_long: "16:9"
+    resolution: "1920x1080"
+    fps: 30
+    style: "cinematic, high quality, 4k"
+    temp_dir: "temp/images"
+  
+  music:
+    volume: 0.25  # background music volume (25%)
+    duration_buffer: 5  # extra seconds of music
+    style: "upbeat and energetic"
+    temp_dir: "temp/music"
+
+# Video Settings
+video:
+  transitions:
+    default: "crossfade"
+    duration: 0.5  # seconds
+  
+  captions:
+    font: "Arial"
+    size: 40
+    color: "white"
+    stroke_color: "black"
+    stroke_width: 2
+  output_dir: "output/videos"
+  short_form:
+    width: 1080
+    height: 1920
+  long_form:
+    width: 1920
+    height: 1080
+
+# Upload Settings
+upload:
+  default_privacy: "private"  # private, unlisted, or public
+  max_retries: 3
+  retry_delay: 5  # seconds
+
+# System Settings
+system:
+  temp_dir: "./temp"
+  output_dir: "./output"
+  log_dir: "./logs"
+  log_level: "INFO"
+  max_concurrent_tasks: 3 
