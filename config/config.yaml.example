@@ -6,8 +6,17 @@ api_keys:
     api_key: "your-elevenlabs-api-key"
   leonardo:
     api_key: "your-leonardo-api-key"
+    model_id: "your-leonardo-model-id" # Leonardo Creative model
   suno:
-    api_key: "your-suno-api-key"
+    api_key: "your-suno-api-key" # https://sunoapi.org/
+    url: "https://your-suno-api-url"
+  piapi:
+    api_key: "your-piapi-api-key"
+    url: "https://your-piapi-url"
+  pixabay:
+    api_key: "your-pixabay-api-key"
+  pixverse:
+    api_key: "your-pixverse-api-key"
   youtube:
     client_id: "your-youtube-client-id"
     client_secret: "your-youtube-client-secret"
@@ -23,7 +32,7 @@ content:
     temperature: 0.8
   
   voiceover:
-    voice_id: "default"  # ElevenLabs voice ID
+    voice_id: "your-elevenlabs-voice-id"  # ElevenLabs voice ID
     chunk_size: 200  # words per chunk
     stability: 0.7
     similarity_boost: 0.7
@@ -36,12 +45,27 @@ content:
     fps: 30
     style: "cinematic, high quality, 4k"
     temp_dir: "temp/images"
+    animation:
+      enabled: true
+      duration: 5  # seconds per animation (5 or 8)
+      quality: "540p"  # 360p or 540p for free accounts, 720p/1080p requires premium
+      motion_mode: "normal"  # normal or fast
+      model: "v3.5"
+      prompt_prefix: "Subtle camera movement, gentle animation of"  # Prefix for animation prompts
   
   music:
     volume: 0.25  # background music volume (25%)
     duration_buffer: 5  # extra seconds of music
     style: "upbeat and energetic"
     temp_dir: "temp/music"
+    customMode: true
+    instrumental: true
+    model: "V3_5"
+    default_duration: 30
+    prompt_template: "Instrumental background music for a video about {topic}"
+  
+  captions:
+    enabled: true
 
 # Video Settings
 video:
